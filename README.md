@@ -10,8 +10,8 @@ TRAVELICITY
 My project is based on inspiration of traveling. I really like TripAdvisor website and I am trying to create my own version of it.
 
 ## API and Data Sample
+https://api.roadgoat.com/api/v2/destinations/barcelona-spain
 https://api.roadgoat.com/api/v2/destinations/auto_complete?q=barcelona
-https://api.roadgoat.com/api/v2/destinations/7831779
 {"data":[{"id":"7831779","type":"destination","attributes":{"slug":"barcelona-spain","destination_type":"City","short_name":"Barcelona","name":"Barcelona, Spain","long_name":"Barcelona, Spain","latitude":41.38879,"longitude":2.15899,"bounding_box":null,"countable":true,"average_rating":4.68965517241379,"check_in_count":4803},"relationships":{"known_for":{"data":[{"id":"12","type":"known_for"},{"id":"4","type":"known_for"},{"id":"3","type":"known_for"},{"id":"17","type":"known_for"},{"id":"2","type":"known_for"},{"id":"8","type":"known_for"},{"id":"7","type":"known_for"},{"id":"21","type":"known_for"},{"id":"18","type":"known_for"},{"id":"1","type":"known_for"},{"id":"19","type":"known_for"},{"id":"6","type":"known_for"}]},"featured_photo":{"data":
 
 
