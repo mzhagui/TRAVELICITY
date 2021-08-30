@@ -26,16 +26,18 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 
 #### MVP 
-
+- Customize using flexbox
 - Find and use external api 
 - Render data on page 
 - Allow user to select city, country and return data and images. 
+
 
 #### PostMVP  
 
 
 - Add second API, including flights/hotel accomodations
 - Use local storage to save user favorites
+- Create more links in webpage
 
 ## Project Schedule
 
@@ -66,6 +68,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
+| CSS | H | 3hrs| 3hrs | 3hrs|
 | Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
 | Javascript | H | 3hrs| 3hrs| 3hrs| 3hrs |
 | Total | H | 6hrs| 5hrs | 5hrs |
