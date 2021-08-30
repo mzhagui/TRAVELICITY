@@ -16,15 +16,11 @@ https://api.roadgoat.com/api/v2/destinations/auto_complete?q=barcelona
 
 
 ## Wireframes
-
-link https://www.figma.com/file/IHZfQo2vliJB4EcaJXMYu9/Travelicity?node-id=21%3A3
+[!Wireframe] link https://www.figma.com/file/IHZfQo2vliJB4EcaJXMYu9/Travelicity?node-id=21%3A3
 Desktop and tablet version
 
 ### MVP/PostMVP
-
-The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
-
-
+ 
 #### MVP 
 - Customize using flexbox
 - Find and use external api 
@@ -34,16 +30,11 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 #### PostMVP  
 
-
-- Add second API, including flights/hotel accomodations
+- Add second API, including flights/hotel accomodations and more information about the destination
 - Use local storage to save user favorites
 - Create more links in webpage
 
 ## Project Schedule
-
-This schedule will be used to keep track of your progress throughout the week and align with our expectations.  
-
-You are **responsible** for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding `Saturday` and `Sunday`.
 
 |  Day | Deliverable | Status
 |---|---| ---|
@@ -60,10 +51,6 @@ You are **responsible** for scheduling time with your squad to seek approval for
 https://docs.google.com/document/d/1sLyvbfBC0eVwtptoygTaRBTYzqXsegmFROUdIXQP3QA/edit
 
 ## Timeframes
-
-Tell us how long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day.
-
-Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Throughout your project, keep track of your Time Invested and Actual Time and update your README regularly.
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
