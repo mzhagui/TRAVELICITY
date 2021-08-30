@@ -55,11 +55,18 @@ https://docs.google.com/document/d/1sLyvbfBC0eVwtptoygTaRBTYzqXsegmFROUdIXQP3QA/
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| CSS | H | 3hrs| 3hrs | 3hrs|
-| Creating HTML and divs | H | 2hrs | 2hrs | 2hrs |
+| CSS | M | 2.5hrs| 3hrs | 3hrs|
+| Tablet version | 2hrs| 2hrs | 2hrs |
+| Post MVP | L | 3hrs | 3hrs | 3hrs |
+| Responsivness | H | 3hrs | 3hrs | 3hrs|
+| Creating HTML  | L | 2.5hrs | 2hrs | 2hrs |
+| Creating DIV | L | 2hrs | 2hrs | 2hrs |
 | Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Javascript | H | 3hrs| 3hrs| 3hrs| 3hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
+| Generating data | H | 3hrs | 3hrs | 3hrs |
+| Javascript Functions | H | 3hrs| 3hrs| 3hrs| 3hrs |
+| Javascript Appending | H | 3hrs | 3hrs | 3hrs |
+| Javascript ForEach | H | 3hrs | 3hrs | 3hrs |
+| Total | H | 33.5hrs| 5hrs | 5hrs |
 
 ## Code Snippet
 
