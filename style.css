@@ -45,3 +45,59 @@ h1 {
   color: green;
   font-family:'Roboto' ;
 }
+
+h3{
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+
+}
+
+p {
+
+  font-size: 22px;
+  color: white;
+  justify-content: left;
+  font-family: 'Roboto',sans-serif;
+}
+
+section{
+  flex-direction: row;
+  display: flex;
+
+}
+.returnMyData{
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  flex-direction: row;
+  display:flex;
+  margin : auto;
+  justify-content: center;
+}
+
+a:-webkit-any-link {
+  color:rgba(17, 211, 17, 0.832);
+  justify-content: space-evenly;
+  display: block;
+  flex-direction: row-reverse;
+ 
+}
+
+.images{
+  width: 50%;
+  flex-direction: row;
+  padding-left: 25%;
+  justify-content: center;
+}
+
+.defaultimage{
+  width: 50%;
+  
+  padding-left: 25%;
+}
+
+.title{
+  font-size: 32px;
+  justify-content: center;
+}

@@ -8,6 +8,7 @@ const input = document.querySelector("input");
 const lists = document.querySelector(".returnMyData");
 
 
+
 async function destination() {
   try {
     let res = await axios.get(`https://api.roadgoat.com/api/v2/destinations/${input.value}`, {
@@ -17,53 +18,109 @@ async function destination() {
       }
     })
     let results = res.data
-    // console.log(results);
+    console.log(results);
     destinationData(results)
   } catch (error) {
     console.log(error);
   }
-
-} destination();
+}
 
 
 function destinationData(results) {
   let listDiv = document.createElement("div")
   let titleTag = document.createElement("p")
   titleTag.innerText = results.data.attributes.name
+  titleTag.classList.add("title")
   lists.append(listDiv)
-
   listDiv.append(titleTag)
 
 
-  let languageTag = document.createElement("h4")
-  languageTag.innerText = results.data.attributes.airbnb_url
+  let a = document.createElement('a')
+  a.setAttribute("href", results.data.attributes.airbnb_url)
+  a.setAttribute('target', '_blank')
+  a.innerText = "AirbNb link "
   lists.append(listDiv)
+  listDiv.appendChild(a)
 
-  listDiv.append(languageTag)
-  // let airbnbTag = document.createAttribute("href")
-  // airbnbTag.value = results.data.attributes.airbnb_url
-  // lists.append(listDiv)
+  let c = document.createElement('a')
+  c.setAttribute("href", results.data.attributes.kayak_car_rental_url)
+  c.setAttribute('target', '_blank')
+  c.innerText = "Rent a car here "
+  lists.append(listDiv)
+  listDiv.appendChild(c)
 
-  // listDiv.setAttributeNode(airbnbTag)
-  // results.included.forEach((icon) => {
+  let t = document.createElement('a')
+  t.setAttribute("href", results.data.attributes.getyourguide_url)
+  t.setAttribute('target', '_blank')
+  t.innerText = "Let's get Exploring "
+  lists.append(listDiv)
+  listDiv.appendChild(t)
 
-  // })
-  // Object.values(results).forEach((result) => {
-  //   console.log(result)
-  // listDiv.classList.add("city")
-  // lists.append(newDiv)
 
-  // let h3 = document.createElement("h3")
-  // h3.innerText = attributes.name
-  // console.log(h3)
-  // listDiv.append(h3)
+  // generating the safety object of the destination
+
+  let sTag = document.createElement("p")
+  let safetyObj = results.data.attributes.safety
+  let safetyLocation = Object.values(safetyObj)[0]
+  sTag.innerText = safetyLocation.text
+  lists.append(listDiv)
+  listDiv.appendChild(sTag)
+
+  let s2Tag = document.createElement("p")
+  s2Tag.innerText = safetyLocation.subText
+  lists.append(listDiv)
+  listDiv.appendChild(s2Tag)
+
+  // generating budget object of destination
+
+  let bTag = document.createElement("p")
+  let budgetObj = results.data.attributes.budget
+  let budgetLocation = Object.values(budgetObj)[0]
+  console.log(budgetLocation)
+  bTag.innerText = budgetLocation.text
+  lists.append(listDiv)
+  listDiv.appendChild(bTag)
+
+  let b2Tag = document.createElement("p")
+  b2Tag.innerText = budgetLocation.subText
+  lists.append(listDiv)
+  listDiv.appendChild(b2Tag)
+
+  // generating covid object of destiation
+
+  let cTag = document.createElement("p")
+  let covidObj = results.data.attributes.covid
+  let covidLocation = Object.values(covidObj)[0]
+  console.log(covidLocation)
+  cTag.innerText = covidLocation.text
+  lists.append(listDiv)
+  listDiv.appendChild(cTag)
+
+
+
+
+  // generating pictures of destination
+
+  // console.log(results.data.relationships.photos)
+  if (results.data.relationships.photos) {
+    let img = document.createElement("img")
+    // results.relationships.photos.data[0].id 
+    let obj = results.included.find(str => str.id === results.data.relationships.photos.data[0].id)
+    // console.log(obj)
+    img.setAttribute("src", obj.attributes.image.large)
+    img.classList.add("images")
+    lists.append(listDiv)
+    listDiv.appendChild(img)
+  } else {
+    let imgs = document.createElement("img")
+    imgs.setAttribute("src", results.included[1].attributes.image.large)
+    imgs.classList.add("defaultimage")
+    lists.append(listDiv)
+    listDiv.appendChild(imgs)
+  }
 }
 
-destinationData(citys);
-
-
-
-
+// } destinationCity(citys)
 
 
 
