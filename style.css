@@ -1,103 +1,207 @@
 body {
-background-image: url(https://wallpaperbat.com/img/469140-spring-river-between-mountains-desktop-wallpaper-1920x1200.jpg) ;
-background-size: cover;
-max-width: 100%;
-display:flex;
-flex-direction: column;
-align-items: center;
-}
-
-h1 {
-  color: white;
-  font-family: 'Epilogue', sans-serif;
-  font-size: 72px;
-  text-align: center;
-
-}
-
-.h2{
-  color: white;
-  font-family: 'Indie Flower', cursive;
-  justify-content: center;
-}
-
-#search{
-  color:black;
-  padding: 0.35em 1.2em;
-  border: 0.1em solid white;
-  border-radius: 0.12em;
-  box-sizing: border-box;
-  text-decoration: none;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  text-align: center;
-  transition: all 0.2s;
-}
-
-#search:hover{
-  color: #000000;
-  background-color: white;
-}
-
-#blank{
-  justify-content: center;
-  align-items: center;
-  color: green;
-  font-family:'Roboto' ;
-}
-
-h3{
-  color: white;
-  font-family: 'Roboto', sans-serif;
-  font-size: 24px;
-
-}
-
-p {
-
-  font-size: 22px;
-  color: white;
-  justify-content: left;
-  font-family: 'Roboto',sans-serif;
-}
-
-section{
-  flex-direction: row;
-  display: flex;
-
-}
-.returnMyData{
-  color: white;
-  font-family: 'Roboto', sans-serif;
-  font-size: 24px;
-  flex-direction: row;
+  background-image: url(https://wallpaperbat.com/img/469140-spring-river-between-mountains-desktop-wallpaper-1920x1200.jpg) ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: teal;
+  max-width: 100%;
+  /* max-height: 100vh; */
   display:flex;
-  margin : auto;
-  justify-content: center;
-}
-
-a:-webkit-any-link {
-  color:rgba(17, 211, 17, 0.832);
-  justify-content: space-evenly;
-  display: block;
-  flex-direction: row-reverse;
- 
-}
-
-.images{
-  width: 50%;
-  flex-direction: row;
-  padding-left: 25%;
-  justify-content: center;
-}
-
-.defaultimage{
-  width: 50%;
+    flex-direction: column;
+  justify-content: center;;
+  align-items: center;
   
-  padding-left: 25%;
-}
+  }
+  
+  
+  .maincontent{
+    display:flex;
+    flex-direction: column;
+  justify-content: center;;
+  align-items: center;
+  min-height: 80vh;
+  max-height: 100%;
+  }
 
+  h1 {
+    color: white;
+    font-family: 'Epilogue', sans-serif;
+    font-size: 72px;
+    text-align: center;
+    height: 90px;
+ 
+  }
+  .h2{
+    margin-top:-20px;
+    color: white;
+    font-family: 'Indie Flower', cursive;
+    justify-content: center;
+  }
+  
+  #search{
+    color:black;
+    padding: 0.35em 1.2em;
+    border: 0.1em solid white;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    transition: all 0.2s;
+  }
+  
+  #search:hover{
+    color: #000000;
+    background-color: white;
+  }
+  
+  #blank{
+    justify-content: center;
+    align-items: center;
+    color: green;
+    font-family:'Roboto' ;
+  }
+  
+  h3{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+  }
+   
+  .myData{
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .returnMyData{
+    color: white;
+   
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+   .links{
+     height: 200px;
+     display:flex;
+     flex-direction: column;
+     justify-content: space-between;
+     align-items: flex-end;
+     width: 100px; 
+     box-sizing: border-box;
+     border-radius: 5px; 
+
+   }
+  a:-webkit-any-link {
+    color:rgba(184, 216, 213, 0.832);
+    display: block;
+    flex-direction: row-reverse;
+   
+  }
+  
+  .image{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .defaultimage{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+  .image_div{
+    display:flex;
+    flex-direction: column;
+    height: 208px;
+    width: 400px;
+    float: left;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .detailsDiv {
+    display:flex;
+    flex-direction: column;
+  }
 .title{
-  font-size: 32px;
+  height: 65px;
+  display: flex;
   justify-content: center;
+}
+  .titleclass{
+    display:flex;
+    flex-direction: column;
+    height: 100%;
+    width:100%;
+    justify-content: center;
+    font-size: 55px;
+    font-family: 'Spartan', sans-serif;
+    color:red;
+   text-align: center;
+   
+  }
+  p{
+    display: flex;
+    width: 100%;
+    height: 25%;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+
+  .safety{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid white;
+    height: 132px;
+    width: 224px;
+    align-items: normal;
+    text-align: center;
+    font-size: 15px;
+  }
+
+.budget{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid white;
+    height: 132px;
+    width: 228px;
+    justify-content: center;
+    align-items: normal;
+    text-align: center;
+    font-size: 15px;
+
+}
+.b{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+.covid{
+  border: 2px solid white;
+  text-align: center;
+  height: 132px;
+  font-size: 15px;
+}
+  .footer{
+    flex:1;
+    font-size: 15px;
+    color: white;
+  }
+
+  @media screen 
+  and (max-device-width: 800px) 
+    { .returnMyData { flex-direction: column;}
 }

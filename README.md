@@ -38,12 +38,12 @@ Desktop and tablet version
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|August 28| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
-|August 30| Project Approval | Incomplete
-|August 30| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|August 31| Pseudocode / actual code | Incomplete
-|September 1| Initial Clickable Model  | Incomplete
-|September 2| MVP | Incomplete
+|August 28| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
+|August 30| Project Approval | Complete
+|August 30| Core Application Structure (HTML, CSS, etc.) | Complete
+|August 31| Pseudocode / actual code | Complete
+|September 1| Initial Clickable Model  | Ccomplete
+|September 2| MVP | Complete
 |September 3| Presentations | Incomplete
 
 ## Priority Matrix
@@ -54,19 +54,19 @@ https://docs.google.com/document/d/1sLyvbfBC0eVwtptoygTaRBTYzqXsegmFROUdIXQP3QA/
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| CSS | M | 2.5hrs| 3hrs | 3hrs|
+| Adding Form | H | 3hrs| 3.5hrs | 3hrs |
+| CSS | M | 2.5hrs| 3hrs | 6hrs|
 | Tablet version | 2hrs| 2hrs | 2hrs |
-| Post MVP | L | 3hrs | 3hrs | 3hrs |
-| Responsivness | H | 3hrs | 3hrs | 3hrs|
-| Creating HTML  | L | 2.5hrs | 2hrs | 2hrs |
-| Creating DIV | L | 2hrs | 2hrs | 2hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
+| Post MVP | L | 3hrs | 3hrs | 0hrs |
+| Responsivness | H | 3hrs | 3hrs | 4hrs|
+| Creating HTML  | L | 2.5hrs | 2hrs | 3hrs |
+| Creating DIV | L | 2hrs | 2hrs | 6hrs |
+| Working with API | H | 3hrs| 2.5hrs | 6hrs |
 | Generating data | H | 3hrs | 3hrs | 3hrs |
-| Javascript Functions | H | 3hrs| 3hrs| 3hrs| 3hrs |
+| Javascript Functions | H | 3hrs| 3hrs| 6hrs|
 | Javascript Appending | H | 3hrs | 3hrs | 3hrs |
 | Javascript ForEach | H | 3hrs | 3hrs | 3hrs |
-| Total | H | 33.5hrs| 5hrs | 5hrs |
+| Total | H | 33.5hrs| 40hrs | 45hrs |
 
 ## Code Snippet
 
