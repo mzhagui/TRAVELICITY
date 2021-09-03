@@ -56,7 +56,7 @@ https://docs.google.com/document/d/1sLyvbfBC0eVwtptoygTaRBTYzqXsegmFROUdIXQP3QA/
 | --- | :---: |  :---: | :---: | :---: |
 | Adding Form | H | 3hrs| 3.5hrs | 3hrs |
 | CSS | M | 2.5hrs| 3hrs | 6hrs|
-| Tablet version | 2hrs| 2hrs | 2hrs |
+| Tablet version | L | 2hrs | 2hrs |
 | Post MVP | L | 3hrs | 3hrs | 0hrs |
 | Responsivness | H | 3hrs | 3hrs | 4hrs|
 | Creating HTML  | L | 2.5hrs | 2hrs | 3hrs |
@@ -70,13 +70,27 @@ https://docs.google.com/document/d/1sLyvbfBC0eVwtptoygTaRBTYzqXsegmFROUdIXQP3QA/
 
 ## Code Snippet
 
-Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  
+  I came across a problem where some destinations didn't have images so I had to create default images for those destinations. This allowed every place to have an image to display.
 
-```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
-```
+  
+  if (results.data.relationships.photos) {
+    let img = document.createElement("img")
+    // results.relationships.photos.data[0].id 
+    let obj = results.included.find(str => str.id === results.data.relationships.photos.data[0].id)
+    // console.log(obj)
+    img.setAttribute("src", obj.attributes.image.large)
+    img.classList.add("image")
+    imgDiv.append(img)
+    lists.appendChild(imgDiv)
+  } else {
+    let imgs = document.createElement("img")
+    imgs.setAttribute("src", results.included[1].attributes.image.large)
+    imgs.classList.add("defaultimage")
+    imgDiv.append(imgs)
+    lists.appendChild(imgDiv)
+  } -->
+
 
 ## Change Log
- Use this section to document what changes were made and the reasoning behind those changes.  
+ 
+ I made a lot of changes with the layout of my project. I also made changes in the data I wanted to display.
